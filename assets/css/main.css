@@ -8,7 +8,6 @@
 }
 
 /** BASE **/
-
 :root {
   --link-color: #0d6efd;
 }
@@ -23,8 +22,18 @@ a {
   color: var(--link-color);
 }
 
-/** COMPONENTS **/
+input {
+  font-family: inherit;
+  font-size: 0.8em;
+  padding: 0.4em;
+}
 
+/** STYLES **/
+.tac {
+  text-align: center;
+}
+
+/** COMPONENTS **/
 .cont {
   max-width: 1200px;
   margin: 0 auto;

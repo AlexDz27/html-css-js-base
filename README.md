@@ -5,3 +5,8 @@ The path now works both for local and web-server setups (previously was only wor
 
 ## 2025-07-01 18:11
 Added img folder, some console.log in main.js
+
+## 2025-07-07 20:17
+Remove empty lines
+Add input
+Add STYLES section
