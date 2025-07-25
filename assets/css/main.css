@@ -12,6 +12,10 @@
   --link-color: #0d6efd;
 }
 
+html {
+  font-size: 18px;
+}
+
 body {
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 18px;
@@ -27,6 +31,9 @@ input {
   font-size: 0.8em;
   padding: 0.4em;
 }
+input[type="radio"] {
+  min-width: initial;
+}
 
 /** STYLES **/
 .tac {
@@ -34,6 +41,14 @@ input {
 }
 
 /** COMPONENTS **/
+.btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+  display: inline-block;
+}
+
 .cont {
   max-width: 1200px;
   margin: 0 auto;

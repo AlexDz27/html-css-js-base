@@ -17,3 +17,7 @@ Add STYLES section
 ## 2025-07-13 16:50
 Found out that if using ./ paths, there will be problems with urls like localhost/qwe/asd -- the assets will be downloaded from /qwe/assets, which is wrong -> we need to use just '/' instead of './'.
 The downside of this is that locally for development i will need to set up webserver rather than simply relying on the path of index.html itself.
+
+## 2025-07-25 20:49
+- html fz for rems to work properly
+- btn display-block to prevent situations when i apply .btn on label, and wonder wtf happened with width (bc label is inline, not inline-block)
