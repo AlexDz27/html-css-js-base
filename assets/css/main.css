@@ -35,6 +35,11 @@ input[type="radio"] {
   min-width: initial;
 }
 
+select {
+  font-size: .8em;
+  padding: .35em;
+}
+
 /** STYLES **/
 .tac {
   text-align: center;
