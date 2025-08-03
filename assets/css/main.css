@@ -52,6 +52,7 @@ select {
   cursor: pointer;
   font-size: inherit;
   display: inline-block;
+  text-decoration: none;
 }
 
 .cont {
