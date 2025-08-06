@@ -21,3 +21,8 @@ The downside of this is that locally for development i will need to set up webse
 ## 2025-07-25 20:49
 - html fz for rems to work properly
 - btn display-block to prevent situations when i apply .btn on label, and wonder wtf happened with width (bc label is inline, not inline-block)
+
+## 2025-08-06 12:51
+Reasoning for putting js into assets: it's just more convenient project structure wise. And historically wise.
+Yes, it may require some business-logic (like fetches), but it is still
+an *asset* to the site.
