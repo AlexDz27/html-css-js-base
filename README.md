@@ -26,3 +26,6 @@ The downside of this is that locally for development i will need to set up webse
 Reasoning for putting js into assets: it's just more convenient project structure wise. And historically wise.
 Yes, it may require some business-logic (like fetches), but it is still
 an *asset* to the site.
+
+*2025-08-06 13:20*: font-size should be in html cuz if in body rems won't work.
+Added heap.css for placing under-development components into heap, and then to possibly porting them into separate css files (like btn.css)
