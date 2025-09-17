@@ -1,5 +1,9 @@
 # Running the app
+## Standard way
 Needs web server, e.g. `php -S localhost:8085 -t .`
+## File way
+If you want to work with the project just like with regular files opened via browser,
+simply remove first slash from the assets in <head>
 
 # Changelogs
 ## 2025-06-30 20:22
@@ -29,3 +33,9 @@ an *asset* to the site.
 
 *2025-08-06 13:20*: font-size should be in html cuz if in body rems won't work.
 Added heap.css for placing under-development components into heap, and then to possibly porting them into separate css files (like btn.css)
+
+## 2025-08-22 13:38
+Add img {width: 100%}. TODO: make commit. It's better to have it because it's more expected behavior from an image, rather than default browser behavior when it overflows the box of the parent element.
+
+## 2025-09-17 21:59
+Add color: inherit to .btn
