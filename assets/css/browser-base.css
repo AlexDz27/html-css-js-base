@@ -7,11 +7,12 @@
 }
 
 :root {
+  --font-size: 18px;
   --link-color: #0d6efd;
 }
 
 html {
-  font-size: 18px;
+  font-size: var(--font-size);
 }
 
 body {

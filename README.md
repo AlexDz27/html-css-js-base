@@ -39,3 +39,6 @@ Add img {width: 100%}. TODO: make commit. It's better to have it because it's mo
 
 ## 2025-09-17 21:59
 Add color: inherit to .btn
+
+## 2025-10-30 15:19
+Add --font-size variable. Applied to html {} to be able to work with rems.
