@@ -6,8 +6,9 @@
 
 @import 'grid.css';
 
-/* @import 'components/some-component.css'; */
+@import 'components/black-section.css';
 
 @import 'atoms.css';
 
+/* In this file you can add sloppy architectured styles when you're lazy */
 @import 'heap.css';

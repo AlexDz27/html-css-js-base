@@ -42,3 +42,6 @@ Add color: inherit to .btn
 
 ## 2025-10-30 15:19
 Add --font-size variable. Applied to html {} to be able to work with rems.
+
+## 2026-01-27 22:43
+Incorporate everything good from my experience in the past months.
