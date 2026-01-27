@@ -8,11 +8,17 @@
 
 :root {
   --font-size: 18px;
+  --font-size--mob: 14px;
   --link-color: #0d6efd;
 }
 
 html {
   font-size: var(--font-size);
+}
+@media (max-width: 576px) {
+  html {
+    font-size: var(--font-size--mob);
+  }
 }
 
 body {
@@ -40,6 +46,10 @@ input[type="radio"] {
 select {
   font-size: .8em;
   padding: .35em;
+}
+
+summary {
+  cursor: pointer;
 }
 
 /** Override browser styles **/
