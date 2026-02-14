@@ -8,6 +8,10 @@
   color: inherit;
 }
 
+button {
+  max-width: 380px;
+}
+
 table {
   font-family: sans-serif;
   border-collapse: collapse; /* Merges the borders of cells */

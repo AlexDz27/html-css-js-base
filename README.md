@@ -45,3 +45,7 @@ Add --font-size variable. Applied to html {} to be able to work with rems.
 
 ## 2026-01-27 22:43
 Incorporate everything good from my experience in the past months.
+
+## 2026-02-14 20:34
+Add default button max-width - should be useful to prevent buttons from
+going full width.
