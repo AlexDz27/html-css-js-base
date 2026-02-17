@@ -10,6 +10,7 @@
 
 button {
   max-width: 380px;
+  font-family: inherit;
 }
 
 table {
