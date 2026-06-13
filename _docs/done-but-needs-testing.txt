@@ -1,0 +1,2 @@
+260613: added Segoe UI, but need to see how it behaves
+with font-weights and stuff like that
