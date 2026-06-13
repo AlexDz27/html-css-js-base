@@ -1,4 +1,4 @@
-- noto sans?)
+- noto sans?); upd 260613: no, better try Segoe UI
 
 - remove .gitkeep from css/components, т.к. уже есть black-section)
 
